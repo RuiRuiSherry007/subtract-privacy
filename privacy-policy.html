@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
             line-height: 1.6;
@@ -17,38 +19,46 @@
             background-color: #f8f9fa;
             padding: 20px;
         }
+
         .container {
             max-width: 800px;
             margin: 0 auto;
             background: white;
             padding: 40px;
             border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             color: #6366f1;
             margin-bottom: 10px;
         }
+
         h2 {
             color: #4f46e5;
             margin-top: 30px;
             margin-bottom: 15px;
         }
+
         p {
             margin-bottom: 15px;
         }
+
         ul {
             margin-left: 20px;
             margin-bottom: 15px;
         }
+
         li {
             margin-bottom: 8px;
         }
+
         .updated {
             color: #666;
             font-size: 14px;
             margin-bottom: 30px;
         }
+
         .highlight {
             background-color: #f0f9ff;
             padding: 15px;
@@ -56,36 +66,42 @@
             border-left: 4px solid #6366f1;
             margin: 20px 0;
         }
+
         a {
             color: #6366f1;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="updated">Last updated: December 15, 2024</p>
+        <p class="updated">Last updated: February 20, 2025</p>
 
         <div class="highlight">
-            <strong>Summary:</strong> Subtract is a privacy-first app. All your subscription data is stored locally on your device. We do not collect, store, or have access to your personal data.
+            <strong>Summary:</strong> Subtract is a privacy-first app. All your subscription data is stored locally on
+            your device in an encrypted database. We do not collect, store, or have access to your personal data. No
+            accounts or sign-ins are required.
         </div>
 
         <h2>Introduction</h2>
-        <p>Subtract ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we handle your information when you use our mobile application Subtract (the "App").</p>
+        <p>Subtract ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we
+            handle your information when you use our mobile application Subtract (the "App").</p>
 
         <h2>Data Collection</h2>
         <p><strong>We do not collect any personal data.</strong></p>
-        <p>All subscription information you enter into the App is stored locally on your device. We have no access to this data and cannot retrieve it.</p>
+        <p>All subscription information you enter into the App is stored locally on your device in an encrypted
+            database. We have no servers, no accounts, and no access to your data.</p>
 
         <h2>Local Storage</h2>
-        <p>The App stores the following information locally on your device:</p>
+        <p>The App stores the following information locally on your device in an encrypted database (SQLCipher):</p>
         <ul>
             <li>Subscription names and details</li>
             <li>Billing amounts and cycles</li>
             <li>Reminder preferences</li>
             <li>App settings</li>
         </ul>
-        <p>This data never leaves your device unless you choose to use iCloud Sync (Pro feature).</p>
+        <p>This data is encrypted and never leaves your device unless you choose to use iCloud Sync (Pro feature).</p>
 
         <h2>iCloud Sync (Pro Feature)</h2>
         <p>If you subscribe to Subtract Pro, you can optionally enable iCloud Sync. When enabled:</p>
@@ -97,24 +113,34 @@
         </ul>
         <p>iCloud Sync is governed by Apple's Privacy Policy and your iCloud terms of service.</p>
 
-        <h2>Third-Party Services</h2>
-        <p>The App uses the following third-party services:</p>
-        <ul>
-            <li><strong>RevenueCat:</strong> For managing subscriptions. RevenueCat may collect anonymous transaction data. See <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat's Privacy Policy</a>.</li>
-            <li><strong>Apple App Store:</strong> For processing payments. See <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</li>
-        </ul>
+        <h2>In-App Purchases</h2>
+        <p>The App offers optional subscriptions (Subtract Pro) processed entirely through Apple's App Store and
+            StoreKit. We do not process payments directly and do not have access to your payment information. All
+            purchase transactions are handled by Apple. See <a href="https://www.apple.com/legal/privacy/"
+                target="_blank">Apple's Privacy Policy</a>.</p>
 
         <h2>Analytics</h2>
         <p>We do not use any analytics or tracking services. We do not track how you use the App.</p>
 
         <h2>Notifications</h2>
-        <p>The App may send you local notifications as reminders for subscription renewals or trial expirations. These notifications are generated locally on your device and are not sent through any external servers.</p>
+        <p>The App may send you local notifications as reminders for subscription renewals or trial expirations. These
+            notifications are generated entirely on your device and are not sent through any external servers.</p>
+
+        <h2>Data Security</h2>
+        <p>We take data security seriously:</p>
+        <ul>
+            <li>All local data is encrypted using SQLCipher</li>
+            <li>No data is transmitted to external servers</li>
+            <li>iCloud data (if enabled) is protected by Apple's encryption</li>
+        </ul>
 
         <h2>Children's Privacy</h2>
-        <p>The App is not intended for children under 13 years of age. We do not knowingly collect personal information from children.</p>
+        <p>The App is not intended for children under 13 years of age. We do not knowingly collect personal information
+            from children.</p>
 
         <h2>Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new
+            Privacy Policy on this page and updating the "Last updated" date.</p>
 
         <h2>Contact Us</h2>
         <p>If you have any questions about this Privacy Policy, please contact us at:</p>
@@ -123,10 +149,10 @@
         <hr style="margin: 40px 0; border: none; border-top: 1px solid #eee;">
 
         <h1>隐私政策</h1>
-        <p class="updated">最后更新：2024年12月15日</p>
+        <p class="updated">最后更新：2025年2月20日</p>
 
         <div class="highlight">
-            <strong>摘要：</strong>Subtract 是一款隐私优先的应用。您的所有订阅数据都存储在您的设备本地。我们不会收集、存储或访问您的个人数据。
+            <strong>摘要：</strong>Subtract 是一款隐私优先的应用。您的所有订阅数据都存储在您设备本地的加密数据库中。我们不会收集、存储或访问您的个人数据。无需账户或登录。
         </div>
 
         <h2>简介</h2>
@@ -134,17 +160,17 @@
 
         <h2>数据收集</h2>
         <p><strong>我们不收集任何个人数据。</strong></p>
-        <p>您在应用中输入的所有订阅信息都存储在您的设备本地。我们无法访问这些数据，也无法检索它。</p>
+        <p>您在应用中输入的所有订阅信息都存储在您设备本地的加密数据库中。我们没有服务器、没有账户系统，无法访问您的数据。</p>
 
         <h2>本地存储</h2>
-        <p>本应用在您的设备本地存储以下信息：</p>
+        <p>本应用在您设备本地的加密数据库（SQLCipher）中存储以下信息：</p>
         <ul>
             <li>订阅名称和详情</li>
             <li>账单金额和周期</li>
             <li>提醒偏好设置</li>
             <li>应用设置</li>
         </ul>
-        <p>除非您选择使用 iCloud 同步（Pro 功能），否则这些数据永远不会离开您的设备。</p>
+        <p>这些数据经过加密，除非您选择使用 iCloud 同步（Pro 功能），否则数据不会离开您的设备。</p>
 
         <h2>iCloud 同步（Pro 功能）</h2>
         <p>如果您订阅 Subtract Pro，您可以选择启用 iCloud 同步。启用后：</p>
@@ -156,18 +182,23 @@
         </ul>
         <p>iCloud 同步受 Apple 隐私政策和您的 iCloud 服务条款约束。</p>
 
-        <h2>第三方服务</h2>
-        <p>本应用使用以下第三方服务：</p>
-        <ul>
-            <li><strong>RevenueCat：</strong>用于管理订阅。RevenueCat 可能收集匿名交易数据。请参阅 <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat 隐私政策</a>。</li>
-            <li><strong>Apple App Store：</strong>用于处理支付。请参阅 <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple 隐私政策</a>。</li>
-        </ul>
+        <h2>应用内购买</h2>
+        <p>本应用提供可选的订阅服务（Subtract Pro），完全通过 Apple App Store 和 StoreKit 处理。我们不直接处理支付，也无法访问您的支付信息。所有购买交易均由 Apple 处理。请参阅 <a
+                href="https://www.apple.com/legal/privacy/" target="_blank">Apple 隐私政策</a>。</p>
 
         <h2>分析</h2>
         <p>我们不使用任何分析或跟踪服务。我们不会跟踪您如何使用本应用。</p>
 
         <h2>通知</h2>
-        <p>本应用可能会向您发送本地通知，作为订阅续费或试用到期的提醒。这些通知在您的设备本地生成，不通过任何外部服务器发送。</p>
+        <p>本应用可能会向您发送本地通知，作为订阅续费或试用到期的提醒。这些通知完全在您的设备本地生成，不通过任何外部服务器发送。</p>
+
+        <h2>数据安全</h2>
+        <p>我们高度重视数据安全：</p>
+        <ul>
+            <li>所有本地数据使用 SQLCipher 加密</li>
+            <li>不向外部服务器传输任何数据</li>
+            <li>iCloud 数据（如启用）受 Apple 加密保护</li>
+        </ul>
 
         <h2>儿童隐私</h2>
         <p>本应用不适用于 13 岁以下的儿童。我们不会故意收集儿童的个人信息。</p>
@@ -180,4 +211,5 @@
         <p>邮箱：<a href="mailto:subtract.app@gmail.com">subtract.app@gmail.com</a></p>
     </div>
 </body>
+
 </html>
